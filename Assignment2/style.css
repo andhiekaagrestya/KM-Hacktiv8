@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar-nav{
+    text-align: right;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+    padding-right: 1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+
+.nama{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.job{
+    color: gray;
+}
+
+.profile-pic-div{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#file{
+    display: none;
+}
+
+#uploadBtn{
+    height: 39px;
+    width: 150px;
+    position: absolute;
+    transform: translateY(300%);
+    text-align: center;
+    color: rgb(99, 98, 94);
+    line-height: 30px;
+    font-family: sans-serif;
+    border-radius: 40%;
+    font-size: 12px;
+    cursor: pointer;
+}
